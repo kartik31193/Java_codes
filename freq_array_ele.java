@@ -9,7 +9,7 @@ public class freq_array_ele{
     for(int i=0; i<n; i++){
       a[i]=sc.nextInt();
     }
-
+   countFreq(a,n);
   }
   public static void countFreq(int arr[], int n){
     boolean visited[] = new boolean[n];
